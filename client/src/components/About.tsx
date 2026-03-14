@@ -12,7 +12,7 @@ export default function About() {
       setStats((prev) => ({
         projects: Math.min(prev.projects + 2, 50),
         technologies: Math.min(prev.technologies + 1.2, 30),
-        experience: Math.min(prev.experience + 0.08, 8),
+        experience: Math.min(prev.experience + 0.08, 3),
       }));
     }, 30);
 
