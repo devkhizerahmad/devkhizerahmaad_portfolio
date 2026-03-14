@@ -155,7 +155,7 @@ export default function Projects() {
 
                     <div className="flex gap-3">
                       <motion.a
-                        href={project.github}
+                        href={project.github === '#' ? 'https://github.com/devkhizerahmad' : project.github}
                         className="flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg glass-dark hover:shadow-glow-cyan hover:bg-indigo-500/20 transition-all duration-300 text-sm font-semibold"
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}

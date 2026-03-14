@@ -83,8 +83,8 @@ export default function Footer() {
               <h4 className="font-semibold text-white mb-4">Social</h4>
               <div className="flex gap-3">
                 {[
-                  { icon: Github, href: '#' },
-                  { icon: Linkedin, href: '#' },
+                  { icon: Github, href: 'https://github.com/devkhizerahmad' },
+                  { icon: Linkedin, href: 'https://www.linkedin.com/in/khizar-ahmed-dev/' },
                   { icon: Twitter, href: '#' },
                   { icon: Mail, href: '#' },
                 ].map(({ icon: Icon, href }, index) => (

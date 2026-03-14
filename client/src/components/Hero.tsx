@@ -105,7 +105,7 @@ export default function Hero() {
           {/* Social Links */}
           <motion.div variants={itemVariants} className="flex gap-6 justify-center">
             {[
-              { icon: Github, label: 'GitHub', href: '#' },
+              { icon: Github, label: 'GitHub', href: 'https://github.com/devkhizerahmad' },
               { icon: Linkedin, label: 'LinkedIn', href: '#' },
               { icon: Mail, label: 'Email', href: '#' },
             ].map(({ icon: Icon, label, href }) => (

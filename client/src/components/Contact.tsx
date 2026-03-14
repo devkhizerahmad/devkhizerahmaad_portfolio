@@ -138,7 +138,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-slate-400">Email</p>
-                      <p className="font-semibold text-white">hello@example.com</p>
+                      <a className="font-semibold text-white" href="mailto:devkhizerahmad@gmail.com">devkhizerahmad@gmail.com</a>
                     </div>
                   </motion.a>
 
@@ -152,7 +152,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-slate-400">GitHub</p>
-                      <p className="font-semibold text-white">github.com/yourprofile</p>
+                      <a className="font-semibold text-white" href="https://github.com/devkhizerahmad">github.com/devkhizerahmad</a>
                     </div>
                   </motion.a>
 
@@ -166,7 +166,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-slate-400">LinkedIn</p>
-                      <p className="font-semibold text-white">linkedin.com/in/yourprofile</p>
+                      <a className="font-semibold text-white" href="https://www.linkedin.com/in/khizar-ahmed-dev/">khizar-ahmed-dev</a>
                     </div>
                   </motion.a>
                 </div>
@@ -177,7 +177,7 @@ export default function Contact() {
                 <h3 className="text-lg font-bold mb-4">Follow Me</h3>
                 <div className="flex gap-4">
                   {[
-                    { icon: Github, href: '#', label: 'GitHub' },
+                    { icon: Github, href: 'https://github.com/devkhizerahmad', label: 'GitHub' },
                     { icon: Linkedin, href: '#', label: 'LinkedIn' },
                     { icon: Twitter, href: '#', label: 'Twitter' },
                     { icon: Mail, href: '#', label: 'Email' },
